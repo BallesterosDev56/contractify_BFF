@@ -59,6 +59,9 @@ export async function buildApp(): Promise<FastifyInstance> {
   app.get('/health', async (_request, reply) => {
     reply.send({ status: 'ok', timestamp: new Date().toISOString() });
   });
+  app.get('/', async (_request, reply) => {
+    reply.send({ status: 'ok', timestamp: new Date().toISOString() });
+  });
 
   // Register routes
   await app.register(usersRoutes);
