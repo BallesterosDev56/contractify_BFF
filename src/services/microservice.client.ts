@@ -2,7 +2,7 @@ import axios, { AxiosInstance, AxiosError } from 'axios';
 import { config } from '../config/env.js';
 import { MicroserviceError } from '../utils/errors.js';
 import { logger } from '../utils/logger.js';
-import type { UserContext, MicroserviceResponse } from '../types/index.js';
+import type { UserContext } from '../types/index.js';
 
 export class MicroserviceClient {
   private client: AxiosInstance;

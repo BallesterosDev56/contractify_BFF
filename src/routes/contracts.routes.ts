@@ -13,7 +13,6 @@ import {
 import {
   ContractIdParamSchema,
   PartyIdParamSchema,
-  TypeParamSchema,
 } from '../schemas/common.schemas.js';
 import { AddPartyRequestSchema } from '../schemas/party.schemas.js';
 

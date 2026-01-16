@@ -7,7 +7,6 @@ import {
   UpdatePreferencesRequestSchema,
 } from '../schemas/user.schemas.js';
 import { SessionIdParamSchema } from '../schemas/common.schemas.js';
-import { ValidationError } from '../utils/errors.js';
 
 export async function usersRoutes(fastify: FastifyInstance): Promise<void> {
   // Get current user profile

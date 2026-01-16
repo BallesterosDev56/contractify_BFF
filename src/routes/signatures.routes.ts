@@ -1,5 +1,5 @@
 import { FastifyInstance } from 'fastify';
-import { authenticateUser, optionalAuth } from '../middlewares/auth.js';
+import { authenticateUser } from '../middlewares/auth.js';
 import { signaturesClient, contractsClient } from '../services/microservice.client.js';
 import {
   SignRequestSchema,
