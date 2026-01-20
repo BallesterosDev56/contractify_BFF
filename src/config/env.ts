@@ -30,5 +30,5 @@ export const config = {
   },
 
   requestTimeout: parseInt(process.env.REQUEST_TIMEOUT || '30000', 10),
-  corsOrigin: process.env.CORS_ORIGIN || 'http://localhost:5173',
+  corsOrigin: process.env.CORS_ORIGIN || 'https://contractify-frontend.vercel.app',
 };
